@@ -13,3 +13,9 @@ function mondayWork(activity = "go to the office"){
 //End of mondayWork function
 
 //Start of wrapper function
+function wrapAdjective(wrapper) {
+  return function(adjective) {
+    return `You are ${wrapper}${adjective}${wrapper}!`;
+  };
+}
+//End of wrapper function
